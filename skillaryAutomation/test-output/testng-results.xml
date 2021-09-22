@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SkillRary Courses]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-22T14:27:18 IST" name="Default suite" finished-at="2021-09-22T14:27:52 IST" duration-ms="34259">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T14:27:18 IST" name="Default test" finished-at="2021-09-22T14:27:52 IST" duration-ms="34259">
+      <class name="skillaryAutomation.Addtocart">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:skillaryAutomation.Addtocart@7a419da4]" started-at="2021-09-22T14:27:18 IST" name="openapp" finished-at="2021-09-22T14:27:33 IST" duration-ms="14970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="tc1()[pri:0, instance:skillaryAutomation.Addtocart@7a419da4]" started-at="2021-09-22T14:27:33 IST" name="tc1" finished-at="2021-09-22T14:27:51 IST" duration-ms="17755" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SkillRary Courses]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:skillaryAutomation.Addtocart@7a419da4]" started-at="2021-09-22T14:27:51 IST" name="closeapp" finished-at="2021-09-22T14:27:52 IST" duration-ms="1481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=Addtocart.tc1()[pri:0, instance:skillaryAutomation.Addtocart@7a419da4] output=SkillRary Courses]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- skillaryAutomation.Addtocart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
