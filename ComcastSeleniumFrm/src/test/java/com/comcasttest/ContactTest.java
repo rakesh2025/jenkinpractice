@@ -15,5 +15,9 @@ public class ContactTest {
 	public void deleteContactTest() {
 		System.out.println("deleteContactTest");
 	}
+	@Test(groups = "SmokeSuite")
+	public void deleteTest() {
+		System.out.println("deleteTest");
+	}
 
 }
